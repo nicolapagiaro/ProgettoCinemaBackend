@@ -1,0 +1,87 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    color: #00B7FF;
+}
+
+a {
+    color: #fdd835;
+    text-decoration: none;
+}
+
+a h1 {
+    color: #fdd835;
+    text-decoration: none;
+}
+
+#number {
+    color: #424242;
+}
+
+button {
+    display: none;
+    outline: none;
+    border: 0;
+    padding: 8px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #00B7FF;
+    border-radius: 4px;
+    transition: 0.1s all ease;
+}
+
+button:active {
+    outline: none;
+    border: 0;
+    background-color: #fff;
+    color: #00B7FF;
+}
+
+.input-field {
+    outline: none;
+    border: 0;
+    border-bottom: 2px solid #00B7FF;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: #424242;
+    background-color: rgba(0,0,0,0);
+}
+
+.input-field:active {
+    outline: none;
+}
+
+.input-container {
+    margin-top: 8px;
+}
+
+.input-button {
+    border: 0;
+    outline: none;
+    background-color: #00B7FF;
+    color: #fff;
+    margin-top: 8px;
+    padding: 4px;
+    text-transform: uppercase;
+}
+
+#table {
+    border: 0;
+    outline: none;
+}
+
+#table thead tr {
+    color: #00B7FF;
+    margin-bottom: 8px;
+}
+
+#table thead tr th{
+    border-bottom: 2px solid #fdd835;
+}
+
+#table td {
+    padding: 4px;
+}

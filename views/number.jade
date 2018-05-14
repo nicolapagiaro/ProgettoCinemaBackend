@@ -1,0 +1,14 @@
+doctype html
+html
+    head
+        title= title
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+        script(src="/javascripts/api_call.js")
+    body
+        block content
+            a(href="/number")
+                h2 back
+            h1= title
+            h1#number= n
+            button(onclick="getNumber()")#btn Aggiorna il numero

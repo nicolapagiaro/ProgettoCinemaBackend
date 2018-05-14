@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    h2 Aggiungi un utente
+    form(method="POST", action="/api/users")
+        div.input-container
+            input.input-field(type="text", placeholder="Nome", name="name")
+
+        div.input-container
+            input.input-field(type="text", placeholder="E-mail", name="email")
+
+        div.input-container
+            input.input-field(type="text", placeholder="Canzone preferita", name="song")
+
+        div.input-container
+            input.input-button(type="submit", value="Salva")
